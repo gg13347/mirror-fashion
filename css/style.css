@@ -5,3 +5,12 @@ div {
 a {
     color:blanchedalmond
 }
+
+.container {
+    position:absolute;
+    width: 940px;
+    height: 100%;
+    background-color: white;
+    left: 50%;
+    transform: traslateX(-50%);
+}
