@@ -1,16 +1,19 @@
+
 div {
-    background-color: black;
+    background-color: rgb(251, 251, 251);
 }
+
 
 a {
     color:blanchedalmond
 }
 
 .container {
+    
     position:absolute;
     width: 940px;
     height: 100%;
-    background-color: white;
-    left: 50%;
+    background-color: grey;
+    left: 100%;
     transform: traslateX(-50%);
 }
