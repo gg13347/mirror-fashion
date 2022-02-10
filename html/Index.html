@@ -1,60 +1,70 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devide-width">
+        <title>Mirror Fashion</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
 
-<head>
-<title>Mirror fashon</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
-<link rel="stylesheet" href="../css/style.css"/>
-</head>
+    <body>
+        <div class="conteiner">
+             <header> <!-- cabeçalho -->
+                    <h1>
+                        <img id="logo" src="../assets/logo.png" alt="logo da loja Mirror Fashion">
+                    </h1>
+                    <h5 class="legenda">Nenhum item na <br> sacola de compras</h5>
+                    <img id="sacola" src="../assets\sacola.png" alt="imagem da sacola de compras">
+                    
+                    <ul class="menuPrincipal">
+                        <li><a href="#">Sua Conta</a></li>
+                        <li><a href="#">Lista de desejos</a></li>
+                        <li><a href="#">Cartão fidelidade</a></li>
+                        <li><a href="../html/sobre.html">Sobre</a></li>
+                        <li><a href="#">Ajuda</a></li>
+                    </ul>
+            </header> 
+            <nav> <!-- menu de navegação -->
+                <div class="lateral">
+                    <div class="busca">
+                        <b><a>BUSCA</a></b>
+                        <div class="lupa">
+                            <input type="text">
+                            <img style="width: 8%;" src="data:image/jpeg;base64,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">
+                        </div>
+                        <div id="caroulsel">
+                    </div>
+                    <ul class="departamentos">
+                        <li><b><a>DEPARTAMENTOS</a></b></li>
+                        <li><b><a class="branco">BLUSAS E CAMISAS</a></b></li>
+                        <li><b><a class="branco">CALÇAS</a></b></li>
+                        <li><b><a class="branco">SAIAS</a></b></li>
+                        <li><b><a class="branco">VESTIDOS</a></b></li>
+                        <li><b><a class="branco">SAPATOS</a></b></li>
+                        <li><b><a class="branco">BOLSAS E CARTEIRAS</a></b></li>
+                        <li><b><a class="branco">ACESSÓRIOS</a></b></li>
+                    </ul>
 
-<body>
-    <div>
+                    <img src="https://leanfj.github.io/CAELUM-Treinamento-Desenvolvimento-Web-com-HTML-CSS-e-JavaScript/img/destaque-home.png"/>
+                </div>
+                </div>
+            </nav> 
+            <div>  <!-- imagens -->
 
-    <div>
-        <header>
-        <div>
-            <nav>
-<ul>
-
-    <img src="https://media.discordapp.net/attachments/863154964146814979/905953221795794984/logo.png">
-   <img src="https://media.discordapp.net/attachments/863154964146814979/905953249775996938/sacola.png">
-
-</ul>
-</nav>
-</header>
-</div>
-<div id="busca">
-
-      <div>
-        <bu>Busca</bu>
-        <input type="text" id="find">
-        <button>click</button>
-</div>
-
-<div id="divisão"()>
-
-  <ul>
-      <li>Camisas e Blusas</li>
-      <li>Calças</li>
-      <li>sapatos</li>
-      <li>Chapeus</li>
-      <li>meias</li>
-  </ul>
-</div>
-<div>
-    <div>
-
-        </div>
-        <div>
-
+                  
+            </div>
+            <div>
+                <div>  <!-- novidades-->
+                      
+                </div>
+                <div>  <!--mais vendidos -->
+                     
+                </div>
             </div>
         </div>
-            </div>
-        <div>
-
-            </div>
-            <footer></footer>
-</body>
-
+        <footer> <!-- rodapé -->
+            
+        </footer>
+    </body>
+    
 </html>
